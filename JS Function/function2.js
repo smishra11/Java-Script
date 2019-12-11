@@ -23,11 +23,11 @@ console.log(palindrome(str));
 
 //User Defined
 
-const string = 'I did, did I ?';
+const string = 'I did, did I ?' ;
 
 const isPalindrome = function(inStr) {
     //inStr = inStr.replace(/\W/g, '');
-    inStr = inStr.toLowerCase().replace(/\W/g, '');
+    inStr =string.toLowerCase().replace(/\W/g, '');
     console.log(inStr);
     for (let i=0; i<inStr.length; i+=1) {
         if(inStr[i] !== inStr[inStr.length - 1 - i]) {
