@@ -20,7 +20,7 @@ function secondLargestNumber(arr) {
 };
 console.log(secondLargestNumber(newArr));
 
-//For second small number
+//For second small num
 const newArray = [55,6,7,85,90,9,15,11,23,4,45];
 
 
