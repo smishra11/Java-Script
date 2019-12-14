@@ -1,4 +1,6 @@
 //Write a JavaScript function which returns the n rows by n columns identity matrix.
+
+//User defined
 const n = 3;
 
 function matrix(n) {
