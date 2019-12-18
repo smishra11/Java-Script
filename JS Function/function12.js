@@ -1,6 +1,20 @@
-const arr = [55,6,7,85,90,9,15,11,23,4,45];
+//Write a JavaScript function which says whether a number is perfect.
 
-arr.sort(function(a,b){
-    console.log(a-b);
-    return a-b;
-});
+let num = 6;
+
+function perfectNumber(num) {
+    let divis = 0;
+
+    for(i = 1; i <= num/2; i++) {
+        if(num % i ===0) {
+            divis += i;
+        }
+    };
+    if(divis === num && divis !== 0) {
+        console.log(num + ' is a perfect number.')
+    } else {
+        console.log(num + ' is not a perfect number.')
+    }
+};
+
+perfectNumber(num);
