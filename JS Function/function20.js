@@ -2,25 +2,25 @@
 
 //user defined
 
-let nums = [-1,0,3,5,9,12];
-let target = 9;
+let nums = [-3,0,3,5,9,12];
+let target = 5;
 
  function search(nums, target) {
   let left = 0;
   let right = nums.length - 1;
 
   while(left <= right) {
-    const mid = Math.floor((right + left) /2);
+    let mid = Math.floor((right + left) /2);
 
     if(nums[mid] === target) {
       return mid;
     } else if(nums[mid] < target) {
       left = mid + 1;
     } else {
-      left = mid - 1;  
+      right = mid - 1;
     }
   }
   //Did not found target value
-  return -1; 
+  return false; 
 };
 console.log(search(nums, target));
