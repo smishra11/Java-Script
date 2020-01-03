@@ -3,7 +3,7 @@
 //user defined
 
 let nums = [-3,0,3,5,9,12];
-let target = 5;
+let target = 5 ;
 
  function search(nums, target) {
   let left = 0;
