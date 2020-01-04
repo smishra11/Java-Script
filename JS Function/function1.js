@@ -2,6 +2,8 @@
 //Example x = 54321;
 //Expected Output : 12345
 
+//METHOD-1
+
 //Pre-define method
 document.querySelector('h1').innerHTML = 'Reverse Number';
 
@@ -27,3 +29,20 @@ function reverse_number(num) {
     return str;
 }
 console.log(reverse_number(4321));
+
+//METHOD-2
+
+let num1 = 56789;
+
+function reverseNum(num1) {
+    let sum = 0;
+    let rem;
+    
+    while(num1 > 0) {
+        rem = num1 % 10;
+        sum = sum * 10 + rem ;
+        num1 = Math.floor(num1 / 10);
+    }
+    return sum;
+}
+console.log(reverseNum(num1));
