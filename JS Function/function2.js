@@ -29,12 +29,15 @@ const isPalindrome = function(inStr) {
     //inStr = inStr.replace(/\W/g, '');
     inStr =string.toLowerCase().replace(/\W/g, '');
     console.log(inStr);
-    for (let i=0; i<inStr.length; i+=1) {
-        if(inStr[i] !== inStr[inStr.length - 1 - i]) {
+    let n = inStr.length - 1;
+    for (let i=0; i<n-i ; i++) {
+        if(inStr[i] == inStr[n - i]) {
+            continue ;
+        } else {
             return false;
         }
     }
-     return true;
+    return true;
 }
 
 console.log(isPalindrome(string));
