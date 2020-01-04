@@ -30,8 +30,8 @@ const isPalindrome = function(inStr) {
     inStr =string.toLowerCase().replace(/\W/g, '');
     console.log(inStr);
     let n = inStr.length - 1;
-    for (let i=0; i<n-i ; i++) {
-        if(inStr[i] == inStr[n - i]) {
+    for (let i=0; i <= n-i ; i++) {
+        if(inStr[i] === inStr[n - i]) {
             continue ;
         } else {
             return false;
