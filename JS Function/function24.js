@@ -4,7 +4,7 @@ function generateId(num) {
   let text = "";
   let char = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
   for(i = 0; i < num; i++) {
-    text += char.charAt(Math.random() * char.length);
+    text += char.charAt(Math.floor(Math.random() * char.length));
   }
   return text;
 }
