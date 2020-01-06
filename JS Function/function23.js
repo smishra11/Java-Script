@@ -15,7 +15,7 @@ function checkPalindrome(num) {
         rem = num % 10;
         sum += rem;
         num = Math.floor(num/10);
-      }     
+      }
     } else {  
       sum = 1;
       while(num > 0){
@@ -33,7 +33,7 @@ let numb = 454
 function check_palindrome(numb) {
   let sum = 0;
   let rem;
-  numb4 = numb;
+  let numb4 = numb;
 
   while(numb > 0) {
     rem = numb % 10;
