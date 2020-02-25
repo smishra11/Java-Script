@@ -6,4 +6,6 @@ let myObj = {
   age : 30,
   address : 'HYD'
 }
-console.log(Object.getOwnPropertyNames(myObj))
+console.log(Object.getOwnPropertyNames(myObj));
+
+//console.log(Object.keys(myObj));
