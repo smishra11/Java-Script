@@ -1,11 +1,19 @@
 //Write a JavaScript program to list the properties of a JavaScript object
 
 let myObj = {
-  id : 2,
-  name : "Tapu",
-  age : 30,
-  address : 'HYD'
+  Id: 2,
+  Name: "Tapu",
+  Age: 30,
+  Address: 'HYD'
 }
-console.log(Object.getOwnPropertyNames(myObj));
 
-//console.log(Object.keys(myObj));
+//Predefined 
+//    (method-1)
+console.log(Object.getOwnPropertyNames(myObj));
+//    (method-2)
+console.log(Object.keys(myObj));
+
+//User-defined
+for (let x in myObj) {
+  console.log(x);
+}
