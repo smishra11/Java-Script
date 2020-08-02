@@ -8,13 +8,13 @@ var student = {
 
 //User defined
 Object.size = function(student) {
-  var size = 0, key;
+  var objsize = 0, key;
   for (key in student) {
-      if (student.hasOwnProperty(key)) size++;
+      if (student.hasOwnProperty(key)) objsize++;
   }
-  console.log(size);
-  return size;
+  console.log(objsize);
+  return objsize;
 };
 
 // Get the size of an object
-var size = Object.size(student);
+var objsize = Object.size(student);
