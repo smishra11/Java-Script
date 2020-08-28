@@ -19,7 +19,7 @@ var library = [
   }];
 
   for(i = 0; i < library.length; i ++) {
-    var books = " '" + library[i].title + "' " + "by" + library[i].author + "."
+    var books = " '" + library[i].title + "' " + "by " + library[i].author + "."
     if(library[i].readingStatus === true) {
       console.log("Already read" + books);
     } else {
