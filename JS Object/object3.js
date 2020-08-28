@@ -19,3 +19,12 @@ Object.size = (student) => {
 
 // Get the size of an object
 var objsize = Object.size(student);
+
+//Pre-defined
+function objectLength(student) {
+  objLenght = Object.keys(student).length;
+
+  console.log(objLenght);
+}
+
+objectLength(student);
