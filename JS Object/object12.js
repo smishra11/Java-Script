@@ -1,4 +1,4 @@
-//Write a JavaScript function to retrieve all the names of object's own and inherited properties.
+//Write a JavaScript function to retrieve all the values of an object's properties.
 
 var obj = { red: '#FF0000', green: '#00FF00', white: '#FFFFFF' };
 
