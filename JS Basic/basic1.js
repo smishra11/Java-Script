@@ -36,6 +36,7 @@ if (hour === 0 && prepand === ' AM ') {
     prepand = ' AM';
   }
 }
+
 console.log(
   'Current Time : ' + hour + prepand + ' : ' + minute + ' : ' + second
 );
