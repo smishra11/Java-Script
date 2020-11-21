@@ -1,3 +1,5 @@
+//Write a JavaScript program to convert temperatures to and from celsius, fahrenheit
+
 function cToF(celsius) {
   let cToFahr = (celsius * 9) / 5 + 32;
   console.log(celsius + 'C is ' + cToFahr + ' F');
